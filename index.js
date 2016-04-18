@@ -1,7 +1,7 @@
 import React from 'react-native';
 const {
   PixelRatio,
-  StatusBar,
+  //StatusBar,
   Component,
   Text,
   View,
@@ -33,14 +33,14 @@ const StatusBarShape = {
 function customizeStatusBar(data) {
   if (Platform.OS === 'ios') {
     if (data.style) {
-      StatusBar.setBarStyle(data.style);
+      //StatusBar.setBarStyle(data.style);
     }
     const animation = data.hidden ?
     (data.hideAnimation || NavigationBar.defaultProps.statusBar.hideAnimation) :
     (data.showAnimation || NavigationBar.defaultProps.statusBar.showAnimation);
 
-    StatusBar.showHideTransition = animation;
-    StatusBar.hidden = data.hidden;
+    //StatusBar.showHideTransition = animation;
+    //StatusBar.hidden = data.hidden;
   }
 }
 
