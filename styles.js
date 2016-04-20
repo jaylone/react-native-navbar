@@ -45,9 +45,9 @@ module.exports = {
     alignItems: 'center',
   },
   navBarTitleText: {
-    fontSize: 17,
+    fontSize: 18,
     letterSpacing: 0.5,
     color: '#333',
-    fontWeight: '500',
+    fontWeight: ’300',
   },
 };
