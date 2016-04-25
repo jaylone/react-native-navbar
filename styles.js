@@ -48,6 +48,6 @@ module.exports = {
     fontSize: 18,
     letterSpacing: 0.5,
     color: '#333',
-    fontWeight: ’300',
+    fontWeight: '300',
   },
 };
