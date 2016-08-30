@@ -93,7 +93,8 @@ class NavigationBar extends Component {
 
     let statusBar = null;
 
-    if (Platform.OS === 'ios') {
+    if ( Platform.OS === 'ios' ||
+         ( Platform.OS === 'android' && Platform.Version > 20 ) ) {
       statusBar = !this.props.statusBar.hidden ?
         <View style={[styles.statusBar, customStatusBarTintColor ]} /> : null;
     }
